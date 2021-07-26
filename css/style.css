@@ -1,0 +1,107 @@
+body::before {
+    display: block;
+    content: "";
+    height: 55px;
+}
+/* Custom Utilities */
+.bg-primary-blue {
+    background-color: #0b1431;
+}
+.bordRad-2 {
+    border-radius: 2rem;
+}
+
+/* Animation for the hero section icon */
+.bounce {
+    font-size: 2rem;
+    position: relative;
+    -moz-animation: bounce 0.5s infinite linear;
+    -o-animation: bounce 0.5s infinite linear;
+    -webkit-animation: bounce 0.5s infinite linear;
+    animation: bounce 0.5s infinite linear;
+  }
+ 
+  @-webkit-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-moz-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-o-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-ms-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+
+/* Services Icons */
+.icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+  /* Section Divider */
+  #service-sec {
+    position: relative;
+    background: #0b1431;
+  }
+
+  .wave {
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background: #0b1431;
+    bottom: 0;
+  }
+  
+  .wave::before, .wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+  }
+  
+  .wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #fff;
+    right: -1.5%;
+    top: 60%;
+  }
+  .wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #0b1431;
+    left: -1.5%;
+    top: 40%;
+  }
+
+  #case-studies-sec::after {
+    content: "";
+    display: block;
+    background-image: url(../assets/home/waves.svg);
+  }
+  
