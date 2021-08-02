@@ -7,8 +7,12 @@ body::before {
 .bg-primary-blue {
     background-color: #0b1431;
 }
-.bordRad-2 {
-    border-radius: 2rem;
+
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1rem;
+      padding-left: 1rem;
+  }
 }
 
 /* Animation for the hero section icon */
