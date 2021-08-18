@@ -1,8 +1,13 @@
+body {
+  overflow-x: hidden;
+}
+
 body::before {
     display: block;
     content: "";
     height: 55px;
 }
+
 /* Custom Utilities */
 .bg-primary-blue {
     background-color: #0b1431;
@@ -230,17 +235,19 @@ body::before {
 }
 
 
-/* MEDIA */
+/* Media Queries*/
 
 @media only screen and (min-width: 1200px) {
   .img-hover-zoom--colorize img {
       width: 200px;
   }
+ .team .h1, h1 {
+      font-size: 2rem;
+  }
 }
 
-@media only screen and (min-width: 1200px) {
-  .h1,
-  h1 {
-      font-size: 2rem;
+@media only screen and (max-width: 768px) {
+  #navbarNavAltMarkup .navbar-nav .rounded-pill {
+    border-radius: .25rem !important;
   }
 }
