@@ -9,6 +9,10 @@ body::before {
 }
 
 /* Custom Utilities */
+.text-primary-blue {
+  color: #0b1431;
+}
+
 .bg-primary-blue {
     background-color: #0b1431;
 }
@@ -82,9 +86,13 @@ body::before {
 }
 
 /* Services Read more hover effect */
+
 .underline-right-white, .underline-right-blue {
   position: relative;
-  cursor: pointer;
+}
+
+.underline-right-blue:hover {
+  color: #0b1431;
 }
 
 .underline-right-white:after {
