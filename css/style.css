@@ -22,7 +22,7 @@ body::before {
 
 /* Animation for the hero section icon */
 .bounce {
-    font-size: 2rem;
+    font-size: 2.5rem;
     position: relative;
     -moz-animation: bounce 0.5s infinite linear;
     -o-animation: bounce 0.5s infinite linear;
