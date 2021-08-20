@@ -338,6 +338,10 @@ body::before {
   padding-bottom: 0 !important;
 }
 
+#testimonials .carousel-indicators {
+  margin-bottom: -2rem;
+}
+
 /* Media Queries*/
 
 @media only screen and (min-width: 1200px) {
