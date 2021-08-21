@@ -8,6 +8,10 @@ body::before {
     height: 55px;
 }
 
+#about-sec {
+  clear: both;
+}
+
 /* Custom Utilities */
 .text-primary-blue {
   color: #0b1431;
